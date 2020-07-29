@@ -79,9 +79,7 @@
     <footer>
         <p class="pagetop"><a href="#container">▲</a></p>
         
-    <script>
-            
-        $(document).ready(function() {
+    $(document).ready(function() {
   var pagetop = $('.pagetop');
     $(window).scroll(function () {
        if ($(this).scrollTop() > 100) {
@@ -91,12 +89,11 @@
             }
        });
        pagetop.click(function () {
-           $('body, html').animate({ scrollTop: 0 }, 600);
+           $('body, html').animate({ scrollTop: 0 }, 500);
               return false;
    });
 });
-        
-    </script>
+</script>
     
         Copyright &copy; Tetsuya,S. All Rights Reserved
     </footer>
